@@ -23,11 +23,11 @@ const Skills = () => {
         </div>
         <div className="flex">
           <SemiDonutChart percentage={70} fill="#03B0FD" txt="React JS"/>
-          <SemiDonutChart percentage={70} fill="#03B0FD" txt="C"/>
+          <SemiDonutChart percentage={70} fill="#03B0FD" txt="Node JS"/>
           <SemiDonutChart percentage={60} fill="#03B0FD" txt="C++"/>
         </div>
         <div className="flex">
-          <SemiDonutChart percentage={65} fill="#03B0FD" txt="Python"/>
+          <SemiDonutChart percentage={65} fill="#03B0FD" txt="Express JS"/>
         </div>
       </div>
 
@@ -41,11 +41,11 @@ const Skills = () => {
         <div className="contents">
           <div className="flex">
             <SemiDonutChart percentage={80} fill="#03B0FD" txt="HTML"/>
-            <SemiDonutChart percentage={60} fill="#03B0FD" txt="Numpy"/>
-            <SemiDonutChart percentage={50} fill="#03B0FD" txt="Pandas"/>
+            <SemiDonutChart percentage={60} fill="#03B0FD" txt="Axios"/>
+            <SemiDonutChart percentage={50} fill="#03B0FD" txt="Material"/>
           </div>
           <div className="flex">
-            <SemiDonutChart percentage={70} fill="#03B0FD" txt="Python"/>
+            <SemiDonutChart percentage={70} fill="#03B0FD" txt="React"/>
           </div>
         </div>
       </motion.div>

@@ -4,6 +4,7 @@ import scholar from './images/scholarship.png';
 import project from './images/project.png';
 import codechef from './images/codechef.png';
 import leetcode from './images/leetcode.png';
+import communication from'./images/dialog.png';
 import { motion } from 'framer-motion';
 
 const WhyHireMe = () => {
@@ -47,12 +48,12 @@ const WhyHireMe = () => {
                     <div className="flex2">
                         <div className="box">
                             <img src={scholar} alt="" className='why_logo' />
-                            <h4 className='mid_text'>2019</h4>
-                            <p className='main_text_why'>NTSE Scholar</p>
+                            <h4 className='mid_text'>2024</h4>
+                            <p className='main_text_why'>GUVI MERN Certified</p>
                         </div>
                         <div className="box">
                             <img src={project} alt="" className='why_logo' />
-                            <h4 className='mid_text'>6+</h4>
+                            <h4 className='mid_text'>2+</h4>
                             <p className='main_text_why'>Completed Projects</p>
                         </div>
                     </div>
@@ -76,14 +77,14 @@ const WhyHireMe = () => {
                     className='modiv'>
                     <div className="flex2">
                         <div className="box">
-                            <img src={codechef} alt="" className='why_logo' />
+                            <img src={communication} alt="" className='why_logo' />
                             <h4 className='mid_text'>4★</h4>
-                            <p className='main_text_why'>Codechef Rating</p>
+                            <p className='main_text_why'>Communication skill</p>
                         </div>
                         <div className="box ">
                             <img src={leetcode} alt="" className='why_logo' />
-                            <h4 className='mid_text'>150</h4>
-                            <p className='main_text_why'>LeetCode Problems Solved</p>
+                            <h4 className='mid_text'>4★</h4>
+                            <p className='main_text_why'>Problem Solving</p>
                         </div>
                     </div>
                 </motion.div>

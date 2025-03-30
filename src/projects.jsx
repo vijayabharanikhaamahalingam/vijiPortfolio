@@ -4,39 +4,20 @@ import restaurant from"./images/ivan-stern-LOLSb7m6XkU-unsplash.jpg"
 import chess from"./images/chess.jpg"
 import snake from "./images/snake.jpg"
 import wise_way from"./images/wise_way.jpg"
+import Music from"./images/photo-1470225620780-dba8ba36b745.jpeg"
 import { motion } from 'framer-motion';
 
 const Projects = () => {
     const cards = [
         {
-          imageUrl: restaurant,
-          altText: 'Resataurant website',
-          title: 'Restaurant Website',
-          description: 'A dynamic and responsive restaurant website showcasing menu, online reservations, customer reviews, and contact information.',
-          explore:"https://github.com/Praneeth2025/zenith-bistro"
+          imageUrl: Music,
+          altText: 'Music website',
+          title: 'Music Website',
+          description: 'A dynamic and responsive restaurant website showcasing menu, online music, customer listen songs, and like songs.',
+          explore:"https://github.com/vijayabharanikhaamahalingam/music-app-frontend.git",
+          website:"https://music-app-frontend.netlify.app"
         },
-        {
-          imageUrl:chess,
-          altText: 'Chess',
-          title: 'Chess image recognizer',
-          description: '"An AI-powered chess system that recognizes physical pieces and plays autonomously using computer vision and advanced game algorithms."',
-          explore:"https://github.com/Praneeth2025/chess-image-recognizer"
-
-        },
-        {
-          imageUrl: snake,
-          altText: 'Canyons',
-          title: 'Gesture Snake Game',
-          description: "an innovative twist on the classic snake game, allowing players to control the snake's movements through hand gestures, providing an engaging and interactive gaming experience.",
-          explore:"https://github.com/Praneeth2025/Gesture-Snake"
-        },
-        {
-            imageUrl: wise_way,
-            altText: 'wise_way',
-            title: 'WiseWay',
-            description: "a web application that uses advanced algorithms to calculate the most cost-effective route between two points.",
-            explore:"https://github.com/Praneeth2025/WiseWay-website"
-          }
+        
       ];
 
   return (
@@ -74,6 +55,7 @@ const Projects = () => {
           title={card.title}
           description={card.description}
           explore={card.explore}
+          website={card.website}
         />
       ))}
     </div>

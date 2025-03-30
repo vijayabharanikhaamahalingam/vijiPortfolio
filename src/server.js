@@ -12,12 +12,8 @@ const app = express();
 app.use(express.json());
 app.use(cors()); // Enable CORS if your frontend is on a different domain
 
-const CLIENT_ID = "451973533648-2a6n0dbhi8jnuiqcjkalf3ldd0tjsh39.apps.googleusercontent.com";
-const CLIENT_SECRET = "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";
-const REDIRECT_URI = 'https://developers.google.com/oauthplayground';
-const REFRESH_TOKEN = "1//047gs1_-D3SN5CgYIARAAGAQSNwF-L9Irs3tY3zeqv3Bj_OlewABkB-zuzxZSPnLQXgZexkWvcsDtt6gPKVpI6dfraQ1Q4lmNUxI";
 
-const oAuth2Client = new google.auth.OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI);
+const oAuth2Client = new google.auth.OAuth2('', '', '');
 oAuth2Client.setCredentials({ refresh_token: REFRESH_TOKEN });
 
 async function sendMail(formData) {
@@ -28,9 +24,9 @@ async function sendMail(formData) {
       service: 'gmail',
       auth: {
         type: 'OAuth2',
-        user: 'vamsipraneeth2004@gmail.com',
-        clientId: CLIENT_ID,
-        clientSecret: CLIENT_SECRET,
+        user: '',
+        clientId: '',
+        clientSecret: '',
         refreshToken: REFRESH_TOKEN,
         accessToken: accessToken,
       },
